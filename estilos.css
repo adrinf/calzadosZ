@@ -13,7 +13,12 @@
 .logo{
     color: white;
     text-align: center;
-    
+    font-size: 40px;
+
+}
+.logo span{
+    color: brown;
+    font-size: 40px;
 }
 .nav1{
     display: inline-block;
@@ -23,4 +28,63 @@
 .nav1 ul li{
     list-style: none;
     display: inline-block;
+}
+.nav1 a{
+    text-decoration: none;
+    color:brown;
+    padding: 15px;
+}
+.center{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+.center h1{
+    padding: 75px;
+}
+.caja{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.caja1{
+    background-image: url(/image/ojota\ adidas.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.caja2{
+    background-image: url(/image/borcego\ marron.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.caja3{
+    background-image: url(/image/botas\ de\ lluvia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.caja4{
+    background-image: url(/image/nike\ blanca.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.caja5{
+    background-image: url(/image/zapatillas\ new\ balance\ rosa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.caja6{
+    background-image: url(/image/zapatillasa\ all\ star\ chuck.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
