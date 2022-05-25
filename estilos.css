@@ -14,7 +14,6 @@
     color: white;
     text-align: center;
     font-size: 40px;
-
 }
 .logo span{
     color: brown;
@@ -42,6 +41,19 @@
 }
 .center h1{
     padding: 75px;
+    animation-name: texto;
+    animation-duration: 3s;
+}
+@keyframes texto{
+    0%{
+        border-radius: 0;
+        opacity: 0;
+    }
+    50%{
+        border-radius: 30px;
+        transform: 
+        translateY(300px);
+    }
 }
 .caja{
     width: 300px;
@@ -50,6 +62,10 @@
     padding: 20px;
     border: 5px solid black;
     background-color: rgb(255, 255, 255);
+}
+.caja:hover{
+    transform: scale(1.10);
+    transition: all 1.0s;
 }
 .caja1{
     background-image: url(/image/ojota\ adidas.jpg);
@@ -88,3 +104,379 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+.main{
+    display: flex;
+    flex-wrap: nowrap
+}
+.main h1{
+    font-size: 45px;
+    text-align: center;
+    text-decoration:overline;
+    padding: 50px 50px 50px 50px;
+    color: rgb(0, 0, 0);
+    animation-name: texto2;
+    animation-duration: 3s;  
+}
+@keyframes texto2{
+    0%{
+        border-radius: 0;
+        opacity: 0;
+    }
+    50%{
+        border-radius: 30px;
+        transform: 
+        translateY(300px);
+    }
+}
+.item{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.item:hover{
+    transform: scale(1.10);
+    transition: all 1.0s;
+}
+.item1{
+    background-image: url(/image/zapatos\ confort.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.item2{
+    background-image: url(/image/zapatos\ marron.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.item3{
+    background-image: url(/image/zapatos\ tascani.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.item4{
+    background-image: url(/image/borcego\ marron.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main2{
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+.main2 h1{
+    font-size: 45px;
+    text-align: center;
+    text-decoration:overline;
+    padding: 50px 50px 50px 50px;
+    color: rgb(0, 0, 0); 
+    animation-name: texto3;
+    animation-duration: 3s; 
+}
+@keyframes texto3{
+    0%{
+        border-radius: 0;
+        opacity: 0;
+    }
+    50%{
+        border-radius: 30px;
+        transform: 
+        translateY(300px);
+    }
+}
+.dep{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.dep:hover{
+    transform: scale(1.10);
+    transition: all 1.0s;
+}
+.dep1{
+    background-image: url(/image/adidas\ azul.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dep2{
+    background-image: url(/image/adidas\ blancas.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dep3{
+    background-image: url(/image/adidas\ negra.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dep4{
+    background-image: url(/image/nike\ airmax.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dep5{
+    background-image: url(/image/nike\ blanca.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dep6{
+    background-image: url(/image/nike\ bota.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dep7{
+    background-image: url(/image/nike\ resorte.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dep8{
+    background-image: url(/image/puma\ blanca.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dep9{
+    background-image: url(/image/puma\ multi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dep10{
+    background-image: url(/image/puma\ rosa.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main3{
+    display: flex;
+    flex-wrap:nowrap
+}
+.main3 h1{
+    font-size: 45px;
+    text-align: center;
+    text-decoration:overline;
+    padding: 50px 50px 50px 50px;
+    color: rgb(0, 0, 0); 
+    animation-name: texto4;
+    animation-duration: 3s;
+}
+@keyframes texto4{
+    0%{
+        border-radius: 0;
+        opacity: 0;
+    }
+    50%{
+        border-radius: 30px;
+        transform: 
+        translateY(300px);
+    }
+}
+.pro{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.pro:hover{
+    transform: scale(1.10);
+    transition: all 1.0s;
+}
+.pro1{
+    background-image: url(/image/borcego\ naranja.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.pro2{
+    background-image: url(/image/borcego\ negro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.pro3{
+    background-image: url(/image/botas\ de\ lluvia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main4{
+    display: flex;
+    flex-wrap:wrap
+}
+.main4 h1{
+    font-size: 45px;
+    text-align: center;
+    text-decoration:overline;
+    padding: 50px 50px 50px 50px;
+    color: rgb(0, 0, 0); 
+    animation-name: texto5;
+    animation-duration: 3s;
+}
+@keyframes texto5{
+    0%{
+        border-radius: 0;
+        opacity: 0;
+    }
+    50%{
+        border-radius: 30px;
+        transform: 
+        translateY(300px);
+    }
+}
+.zap{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.zap:hover{
+    transform: scale(1.10);
+    transition: all 1.0s;
+ }
+.zap1{
+    background-image: url(/image/zapatillas\ tascani\ negra.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.zap2{
+    background-image: url(/image/zapatillas\ tascani\ blanca.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.zap3{
+    background-image: url(/image/zapatillas\ tascani\ camu.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.zap4{
+    background-image: url(/image/zapatillas\ tascani\ frols.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.zap5{
+    background-image: url(/image/zapatillasa\ all\ star\ chuck.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.zap6{
+    background-image: url(/image/zapatillas\ converse.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.zap7{
+    background-image: url(/image/zapatillas\ new\ balance\ azul.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.zap8{
+    background-image: url(/image/zapatillas\ new\ balance\ negra.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.zap9{
+    background-image: url(/image/zapatillas\ new\ balance\ rosa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.zap10{
+    background-image: url(/image/zapatillas\ key\ blanca.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.zap11{
+    background-image: url(/image/zapatillas\ key\ negra.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main5{
+    display: flex;
+    flex-wrap:nowrap
+}
+.main5 h1{
+    font-size: 45px;
+    text-align: center;
+    text-decoration:overline;
+    padding: 50px 50px 50px 50px;
+    color: rgb(0, 0, 0);
+    animation-name: texto6;
+    animation-duration: 3s;
+}
+@keyframes texto6{
+    0%{
+        border-radius: 0;
+        opacity: 0;
+    }
+    50%{
+        border-radius: 30px;
+        transform: 
+        translateY(300px);
+    }
+}
+.ojo{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.ojo:hover{
+    transform: scale(1.10);
+    transition: all 1.0s;
+}
+.ojo1{
+    background-image: url(/image/ojota\ adidas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ojo2{
+    background-image: url(/image/ojota\ nike.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ojo3{
+    background-image: url(/image/ojota\ nike\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ojo4{
+    background-image: url(/image/ojota\ nike\ 3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
